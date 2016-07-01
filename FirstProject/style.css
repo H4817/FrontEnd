@@ -11,12 +11,83 @@ ul{
 body{
     background: url(img/background.png) no-repeat 50% 0;
     font: 14px/1.67 Arial, Helvetica, sans-serif; 
-    padding 40px 0;
+    padding: 40px 0;
+}
+
+#shop_title{
+    color: #535353;
+    font-size: 20px;
+}
+
+#input_field{
+    width: 37%;
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
+}
+
+#input_container {
+    position:relative; 
+    padding:0;
+    margin:0;
+ }
+ 
+#input_container a{
+    border-radius: 5px;
+    background: #fdb417 repeat-x 0 0;
+    color: #fff 
+}
+ 
+ .navigator{
+    color: #7c7c7c;
+    text-decoration: underline;
+ }
+ 
+ #bucket{
+    float: right;
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
+ }
+ 
+ #make_order{
+    color: #ff8400;
+    text-decoration: underline;
+ }
+ 
+ #navigator_current{
+    color: #a4a4a4;
+    font: 12px Arial, Helvetica, sans-serif; 
+ }
+ 
+ #product_name {
+    color: #ff8400;
+    font: 22px Arial, Helvetica, sans-serif; 
+ }
+ 
+ .selecter{
+    position:relative; 
+    padding:0;
+    margin:10;
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
+ }
+
+
+#magnifying-glass{
+    position:absolute; 
+    top: 47px;
+    left:8px; 
 }
 
 .wrapper{
     width: 1060px;
-    margin: 0 auto;
+    margin-left: 4%;
+    margin-top: 2.1%;
+   /*margin: 0 auto;*/ 
+}
+
+.other{
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
 }
 
 header h1{
@@ -48,6 +119,8 @@ nav li a{
 }
 
 nav li.current a{
+    /*96 35*/
+    border-radius: 5px;
     background: #fb9d00 repeat-x 0 0;
     padding: 3px 5px;
     color: #fff

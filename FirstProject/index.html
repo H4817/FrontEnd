@@ -8,19 +8,32 @@
  <body>
   <div class="wrapper">
       <header>
-        <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1> 
-        <h3>Самый крупный интернет магазин</h3>
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a> 
+        <strong id="shop_title">Самый крупный интернет магазин</strong>
         <nav>
           <ul>
-            <li> <a href=".html" title=""><img src="img/bucket.png" alt="">Корзина</a></li>
-            <li> <a href=".html" title="">Личный кабинет</a></li>
-            <li> <a href=".html" title=""></a>Контакты</li>
-            <li> <a href=".html" title=""></a>Доставка и оплата</li>
+            <li id="bucket"><a href=".html" title=""><img src="img/bucket.png" alt="" align="left">Товаров в корзине:<b> 2 шт</b><br/> На сумму: <b>2300</b> ₽<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="make_order">оформить заказ</a></a></li>
+            <li class="other"><a href=".html" title=""><img src="img/person.png" alt="person">Личный кабинет</a></li>
+            <li class="other"><a href=".html" title="">Контакты</a></li>
+            <li class="other"><a href=".html" title="">Доставка и оплата</a></li>
             <li class="current"><a href=".html" title="">О магазине</a></li>
-            <li> <a href=".html" title=""></a></li>
-            <li> <a href=".html" title=""></a></li>
-            <li> <a href=".html" title=""></a></li>
+            <li><a href=".html" title=""></a></li>
+            <li><a href=".html" title=""></a></li>
           </ul>
+          <div id="input_container">
+            <input type="text" id="input_field" value>
+            <img src="img/magnifying-glass.png" id="magnifying-glass">
+            <select class="selecter">
+              <option>Во всех категориях</option>
+            </select>
+            <a href=".html" title="">Найти</a>
+          </div>
+          <div>
+            <a class="navigator" href=".html" title="">Главная страница</a>→  
+            <a class="navigator" href=".html" title="">Электроника</a>→ 
+            <a id="navigator_current" href=".html" title="">Антихрап</a>  
+          </div></br>
+          <img src="img/arrows.png" alt="arrows"><b id="product_name">Антихрап Стоппер</b>
         </nav>
        </header>
   </div>
