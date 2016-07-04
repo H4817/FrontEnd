@@ -1,127 +1,181 @@
-
-
 a{
-    text-decoration: none;      
+text-decoration: none;      
 }
-    
 ul{
-    list-style: none;
+list-style: none;
 }   
+/*
+<ul>
+   <li class=""><a href="#"><b>Êàòåãîðèè òîâàðîâ</b></a></li>
+   <li class=""><a href="#">Ñîòîâûå òåëåôîíû</a></li>
+   <li class=""><a href="#">Ñàìîå íîâîå!</a></li>
+   <li class=""><a href="#">Âñå äëÿ æèâîòíûõ</a></li>
+   <li class=""><a href="#">Ðàñïðîäàæà îñòàòêîâ</a></li>
+   <li class=""><a href="#">Ôèòíåñ</a></li>
+   <li class=""><a href="#">Çàáîòà î çäîðîâüå</a></li>
+   <li class=""><a href="#">Îòïóãèâàòåëè</a></li>
+   <li class=""><a href="#">Óöåíåííûå òîâàðû</a></li>
+   <li class=""><a href="#">Çàáîòà î çäîðîâüå</a></li>
+   <li class=""><a href="#">Îòïóãèâàòåëè</a></li>
+   <li class=""><a href="#">Óöåíåííûå òîâàðû</a></li>
+</ul>
 
+<table color="red" border="1" width="12%">
+               <tr>
+                  <td bgcolor="#fed400">
+                     <a href="#"><b>Êàòåãîðèè òîâàðîâ</b></a>
+                  </td>
+               </tr>
+               <tr>
+                  <td bgcolor="#fed400">
+                     <a href="#">Ñîòîâûå òåëåôîíû</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td bgcolor="#fed400">
+                     <a href="#">Ñàìîå íîâîå!</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td bgcolor="#fed400">
+                     <a href="#">Âñå äëÿ æèâîòíûõ</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td bgcolor="#fed400">
+                     <a href="#">Ðàñïðîäàæà îñòàòêîâ</a>
+                  </td>
+               </tr>
+            </table>
+*/
 body{
-    background: url(img/background.png) no-repeat 50% 0;
-    font: 14px/1.67 Arial, Helvetica, sans-serif; 
-    padding: 40px 0;
+background: url(img/background.png) no-repeat 50% 0;
+font: 14px/1.67 Arial, Helvetica, sans-serif; 
 }
-
+.second{
+margin-left: 311px;
+}
+#logo{
+margin-left: 4.6%;
+}
 #shop_title{
-    color: #535353;
-    font-size: 20px;
+color: #535353;
+font-size: 20px;
+margin-left:5%;
+margin-top: -35px;
+margin-bottom: 35px;
 }
-
 #input_field{
-    width: 37%;
-    border-radius: 5px;
-    background: #f1f1f1 repeat-x 0 0;
+width: 37%;
+height: 1.4%;
+border-radius: 5px;
+background: #f1f1f1 repeat-x 0 0;
 }
-
-#input_container {
-    position:relative; 
-    padding:0;
-    margin:0;
- }
- 
-#input_container a{
-    border-radius: 5px;
-    background: #fdb417 repeat-x 0 0;
-    color: #fff 
+.navigatorx {
+margin-left: 55px;
 }
- 
- .navigator{
-    color: #7c7c7c;
-    text-decoration: underline;
- }
- 
- #bucket{
-    float: right;
-    border-radius: 5px;
-    background: #f1f1f1 repeat-x 0 0;
- }
- 
- #make_order{
-    color: #ff8400;
-    text-decoration: underline;
- }
- 
- #navigator_current{
-    color: #a4a4a4;
-    font: 12px Arial, Helvetica, sans-serif; 
- }
- 
- #product_name {
-    color: #ff8400;
-    font: 22px Arial, Helvetica, sans-serif; 
- }
- 
- .selecter{
-    position:relative; 
-    padding:0;
-    margin:10;
-    border-radius: 5px;
-    background: #f1f1f1 repeat-x 0 0;
- }
-
-
+.input_container {
+position:relative; 
+padding:0;
+margin-top: -310px;
+}
+.input_container a{
+border-radius: 5px;
+padding: 3px 5px;
+background: #fdb417 repeat-x 0 0;
+color: #fff 
+}
+.navigator{
+color: #7c7c7c;
+text-decoration: underline;
+}
+#bucket{
+margin-right: 4.4%;
+border-radius: 5px;
+background: #f1f1f1 repeat-x 0 0;
+margin-top:-20px
+}
+#make_order{
+color: #ff8400;
+text-decoration: underline;
+}
+#navigator_current{
+color: #a4a4a4;
+font: 12px Arial, Helvetica, sans-serif; 
+}
+#product_name {
+color: #ff8400;
+font: 22px Arial, Helvetica, sans-serif; 
+}
+.selecter{
+position:relative; 
+padding:0;
+margin:10;
+border-radius: 5px;
+background: #f1f1f1 repeat-x 0 0;
+}
 #magnifying-glass{
-    position:absolute; 
-    top: 47px;
-    left:8px; 
+position:absolute; 
+left:8px; 
 }
-
+.item-list{
+margin-left: -215px; 
+}
+.item-list a{
+color: #333333;
+}
+.item-list b{
+color: #ffffff;
+}
 .wrapper{
-    width: 1060px;
-    margin-left: 4%;
-    margin-top: 2.1%;
-   /*margin: 0 auto;*/ 
+margin-top: 50px;
 }
-
 .other{
+border-radius: 5px;
+background: #f1f1f1 repeat-x 0 0;
+}
+.news{
+    font: 22px Arial, Helvetica, sans-serif; 
+    margin-top: 250px;
+    margin-left: 95px;
+    color: #333333;
+    width:190px;
     border-radius: 5px;
     background: #f1f1f1 repeat-x 0 0;
+    padding: 5px 15px;
 }
+.calendar{
+    margin-left: 95px;
+    width:60px;
+    font: 11px Arial, Helvetica, sans-serif; 
+    background: #f1f1f1 repeat-x 0 0;
+}
+.number{
 
+}
 header h1{
-    float: left;
-    margin: 30px 0 0 40px;
+float: left;
+margin: 30px 0 0 40px;
 }
-
 header{
-    background: #fff;
-    height: 97px;
-    -o-border-radius 7px 7px 0 0;
-    -moz-border-radius 7px 7px 0 0;
-    -webkit-border-radius 7px 7px 0 0;  
-    border-radius 7px 7px 0 0;
+background: #fff;
+height: 97px;
 }
-
 nav{
-    float: right;
-    clear: right;
+float: right;
+clear: right;
 }
-
 nav li{
-    float: right;
-    margin: 20px 30px 0 30px;
+float: right;
+margin: 9px;
 }
-
 nav li a{
-    color: #000000;
+color: #000000;
 }
-
 nav li.current a{
-    /*96 35*/
-    border-radius: 5px;
-    background: #fb9d00 repeat-x 0 0;
-    padding: 3px 5px;
-    color: #fff
+/*96 35*/
+border-radius: 5px;
+background: #fb9d00 repeat-x 0 0;
+padding: 3px 5px;
+color: #fff
 }
