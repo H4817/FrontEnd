@@ -12,8 +12,8 @@
         <h2 id="shop_title">Самый крупный интернет-магазин</h2>
         <nav class="menu">
             <ul>
-                <li id="bucket"><img src="img/bucket.png" alt="" align="left">Товаров в
-                    корзине:<b> 2 шт</b><br/> На сумму: <b>2300</b> ₽<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                <li id="bucket"><img src="img/bucket.png" alt="" align="left">&nbsp;Товаров в
+                    корзине:<b> 2 шт</b><br/> &nbsp;На сумму: <b>2300</b> ₽<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
                             id="make_order" href="#" title="">оформить заказ</a>
                 </li>
                 <li class="other"><a href="#" title=""><img src="img/person.png" alt="person">Личный кабинет</a>
@@ -21,71 +21,83 @@
                 <li class="other"><a href="#" title="">Контакты</a></li>
                 <li class="other"><a href="#" title="">Доставка и оплата</a></li>
                 <li class="current"><a href="#" title="">О магазине</a></li>
+
             </ul>
         </nav>
     </header>
 </div>
 <div class="second">
     <div class="item-list">
-        <table width="12%">
+        <table width="15%" height="10%">
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#"><b>Категории товаров</b></a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#"><b>Категории товаров</b></a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Сотовые телефоны</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Сотовые телефоны</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Самое новое!</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Самое новое!</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Все для животных</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Все для животных</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Распродажа остатков</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Распродажа остатков</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Фитнес</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Фитнес</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Забота о здоровье</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Забота о здоровье</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Отпугиватели</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Отпугиватели</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Уцененные товары</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Уцененные товары</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Забота о здоровье</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Забота о здоровье</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Отпугиватели</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Отпугиватели</a>
+                    <hr>
                 </td>
             </tr>
             <tr>
                 <td bgcolor="#fed400">
-                    <a href="#">Уцененные товары</a>
+                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Уцененные товары</a>
                 </td>
             </tr>
         </table>
@@ -120,7 +132,7 @@
 </div>
 <div class="another">
     <b>На складе:</b> много <br/>
-    <b> +23 балла</b><strong id="buy_button"> ₽ Купить</strong>
+    <span><b> +23 балла</b></span><strong id="buy_button"> ₽ Купить</strong>
 </div>
 <div class="links">
     <a href="#" title="">Похожие покупки</a><br/>
@@ -128,12 +140,12 @@
     <a href="#" title="">Отзывы</a><br/>
 </div>
 <div class="price">
-    <strike>Обычная цена: 2800 р.</strike><br/>
-    <strike>Серебрянная карта: 2600р.</strike><br/>
-    <strong>Золотая карта: </strong> <strong id="number"> 2500</strong>р<br/> Бриллиантовая карта: 2000 р
+    <strike class="old_price">Обычная цена: 2800 р.</strike><br/>
+    <strike class="old_price">Серебрянная карта: 2600 р.</strike><br/>
+    <strong>Золотая карта: </strong> <strong id="number"> 2500</strong>р<br/><span class="old_price">Бриллиантовая карта: 2000 р</span>
 </div>
 <div class="share">
-    Поделиться: <img src="img/share.png" alt="share">
+    Поделиться: <span> <img src="img/share.png" alt="share"> </span>
 </div>
 <br/>
 <div class="description">
@@ -177,16 +189,16 @@
     <small class="number">25</small>
 </div>
 <div class="text t1">
-    <b>После Вашей первой покупки</b> на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
+    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
 </div>
 <div class="text t2">
-    <b>После Вашей первой покупки</b> на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
+    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
 </div>
 <div class="text t3">
-    <b>После Вашей первой покупки</b> на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
+    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
 </div>
 <div class="text t4">
-    <b>После Вашей первой покупки</b> на нашем сайте Вы получаете «промо-код», который
+    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который
 </div>
 <br/>
 <b id="all_news">Все новости </b><a href="#" title=""><img src="img/arrow.png" alt="arrow"></a>
@@ -199,10 +211,12 @@
         <a href="#" title="">Сушилка boot&glow</a><a href="#" title="">Сушилка boot&glow</a><a href="#" title="">Сушилка
         boot</a>
         <br/>
-        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b id="plus"> + </b>
-        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b id="plus"> + </b>
+        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="plus"><b> + </b></span>
+        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="plus"><b> + </b></span>
         <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <strike><b>2800</b></strike><b>р.</b> <strong id="number"> 2800</strong><b id="grey">р.</b>
+        <span class="prices_for_suite_container"> <strike>2800</strike><b>р.</b><strong id="number"> 2800</strong><b
+                class="grey">р.</b><br/><br/> <b class="grey">+23 балла</b></span><span
+            class="buy_button_with_ruble_sign"><a href="#" title="">₽&nbsp;Купить</a></span>
     </div>
 </div>
 <div class="line">
@@ -211,16 +225,26 @@
 </div>
 <div class="second_suite_container">
     <div class="suite1">
-        <a href="#" title="">Сушилка boot&glow </a><br/>
-            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>
+            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="#" title="">Сушилка boot&glow </a><strong class="buy_button"><a href="#"
+                                                                                          title=""></a>Купить</strong> <span
+                    class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span></span>
             </span>
-            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>             <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                    href="#" title="">Сушилка boot&glow </a><strong class="buy_button">Купить</strong><span
+                    class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span></span>
+            </span>             <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+            href="#" title="">Сушилка boot&glow </a><strong class="buy_button">Купить</strong><span
+            class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span></span>
             </span>
-            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                    href="#" title="">Сушилка boot&glow </a><strong class="buy_button">Купить</strong><span
+                    class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span> </span>
             </span>
     </div>
 </div>
+<br/><br/><br/><br/>
 <div class="line">
     <img src="img/arrows.png" alt="arrows"><b> ОТЗЫВЫ</b><a href="#" title="">все отзывы </a>
     <hr>
@@ -270,7 +294,7 @@
         <img src="img/logo1.png" alt="logo1"> <span class="info_links">
             <a href="#" title="">О магазине</a> | <a href="#" title="">Доставка и оплата</a> | <a href="#" title="">Обратная связь</a> | <a
             href="#" title="">Прайс-лист</a>
-            </span><span id="grey">Разработка сайта — </span> <a href="#" title="">Название</a><br/> 
+            </span><span class="grey">Разработка сайта — </span> <a href="#" title="">Название</a><br/>
             <span class="info">
             &nbsp;&nbsp;&nbsp;&nbsp;Все права защищены.<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;Любое копирование запрещено
