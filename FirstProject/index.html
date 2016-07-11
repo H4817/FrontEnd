@@ -1,305 +1,129 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>home page</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <a id="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
-        <h2 id="shop_title">Самый крупный интернет-магазин</h2>
-        <nav class="menu">
-            <ul>
-                <li id="bucket"><img src="img/bucket.png" alt="" align="left">&nbsp;Товаров в
+    <div class="wrapper">
+        <header>
+            <div class="h_left">
+                <a href="index.html" id="logo"><img alt="logo" src="img/logo.png"></a>
+            </div>
+            <div class="h_center">
+                 <span id="shop_title">Самый крупный интернет-магазин</span>
+                <nav class="navigation_bar">
+                    <ul>
+                        <li class="current">
+                            <a href="#" title="">О магазине</a>
+                        </li>
+                        <li class="other">
+                            <a href="#" title="">Доставка и оплата</a>
+                        </li>
+                        <li class="other">
+                            <a href="#" title="">Контакты</a>
+                        </li>
+                        <li class="other  personal_account">
+                            <a href="#" title=""><img alt="person" src="img/person.png">Личный
+                            кабинет</a>
+                        </li>
+                        <li class="other bucket"><img src="img/bucket.png" alt="" align="left">&nbsp;Товаров в
                     корзине:<b> 2 шт</b><br/> &nbsp;На сумму: <b>2300</b> ₽<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
                             id="make_order" href="#" title="">оформить заказ</a>
-                </li>
-                <li class="other"><a href="#" title=""><img src="img/person.png" alt="person">Личный кабинет</a>
-                </li>
-                <li class="other"><a href="#" title="">Контакты</a></li>
-                <li class="other"><a href="#" title="">Доставка и оплата</a></li>
-                <li class="current"><a href="#" title="">О магазине</a></li>
-
-            </ul>
-        </nav>
-    </header>
-</div>
-<div class="second">
-    <div class="item-list">
-        <table width="15%" height="10%">
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#"><b>Категории товаров</b></a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Сотовые телефоны</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Самое новое!</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Все для животных</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Распродажа остатков</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Фитнес</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Забота о здоровье</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Отпугиватели</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Уцененные товары</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Забота о здоровье</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Отпугиватели</a>
-                    <hr>
-                </td>
-            </tr>
-            <tr>
-                <td bgcolor="#fed400">
-                    <img src="img/arrow.png" alt="arrow">&nbsp;<a href="#">Уцененные товары</a>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="navigatorx">
-        <div class="input_container">
-            <input type="text" id="input_field" value>
-            <img src="img/magnifying-glass.png" id="magnifying-glass">
-            <select class="selecter">
-                <option>Во всех категориях</option>
-            </select>
-            <a href="#" title="">Найти</a>
+                    </ul>
+                </nav>
+            </div>  
+            <div class="h_right">
+                <div class="basket"></div>
+            </div>
+        </header>
+        <div class="content">
+            <aside class="left_sidebar">
+                <menu class="left_menu">
+                    <ul>
+                        <li>
+                            <a>Категории товаров</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Сотовые телефоны</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Самое новое!</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Все для животных</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Распродажа остатков</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Фитнес</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Забота о здоровье</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Отпугиватели</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Уцененные товары</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Забота о здоровье</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Отпугиватели</a>
+                        </li>
+                        <li style="list-style: none; display: inline">
+                            <hr>
+                        </li>
+                        <li>
+                            <a>Уцененные товары</a>
+                        </li>
+                    </ul>
+                </menu>
+            </aside>
+            <div class="main_content">
+                <form class="search">
+                    <input type="text"> <select>
+                        <option>
+                            Во всех категориях
+                        </option>
+                    </select> <button type="submit"></button>
+                </form>
+            </div>
         </div>
-        <div>
-            <a class="navigator" href="#" title="">Главная страница</a>→
-            <a class="navigator" href="#" title="">Электроника</a>→
-            <a id="navigator_current" href="#" title="">Антихрап</a>
-        </div>
-        <br/>
     </div>
-</div>
-<div class="third">
-    <img src="img/arrows.png" alt="arrows"><b id="product_name"> АНТИХРАП СТОППЕР</b><br/>
-    <img src="img/man_with_laptop.png" alt="man" id="man_with_laptop"><br/>
-    <div class="rating">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star"><b> 3,6</b> (20 голосов)
-    </div>
-</div>
-<div class="another">
-    <b>На складе:</b> много <br/>
-    <span><b> +23 балла</b></span><strong id="buy_button"> ₽ Купить</strong>
-</div>
-<div class="links">
-    <a href="#" title="">Похожие покупки</a><br/>
-    <a href="#" title="">Похожие просмотры</a><br/>
-    <a href="#" title="">Отзывы</a><br/>
-</div>
-<div class="price">
-    <strike class="old_price">Обычная цена: 2800 р.</strike><br/>
-    <strike class="old_price">Серебрянная карта: 2600 р.</strike><br/>
-    <strong>Золотая карта: </strong> <strong id="number"> 2500</strong>р<br/><span class="old_price">Бриллиантовая карта: 2000 р</span>
-</div>
-<div class="share">
-    Поделиться: <span> <img src="img/share.png" alt="share"> </span>
-</div>
-<br/>
-<div class="description">
-    <b>Система антихрап snore stopper</b> - отличное решение для тех, кто решил навсегда избавиться от храпа, перестать
-    беспокоить своих родственников и друзей. Прибор крепится на руке человека, аналогично наручным часам.
-</div>
-<br/>
-<div class="description_second">
-    Антихрап улавливает звуки храпа и посылает легкие электроимпульсы через 2 электрода, расположены на задней панели
-    прибора. Данные импульсы активизируют нервные окончания на руке человека и, не прерывая сна, заставляют его сменить
-    положение тела. В результате храп прекращается.
-    Особенности модели:
-    - Работает от одной батареи типа CR2032
-    - Специальный гель улучшает контакт электродов
-    - Прибор безопасен и не имеет побочных эффектов.
-    - Прибор крепится на руке человека, аналогично наручным часам.
-    - Эластичный ремень на липучке позволяет регулировать прибор.<br/><br/>
-    Этот товар продается в разделах: <a href="#" title="">раздел 1</a>, <a href="#" title="">раздел 2</a>, <a href="#"
-                                                                                                              title="">раздел
-    3</a>
-</div>
-<img src="img/video-screen.png" alt="video-screen" id="video-screen">
-<div class="news">
-    <img src="img/arrows.png" alt="arrows"><b>Новости</b>
-</div>
-<div class="calendar">
-    <small class="month december">ДЕКАБРЬ&nbsp;</small>
-    <br/><br/>
-    <small class="number">25</small>
-    <br/><br/><br/><br/>
-    <small class="month september">СЕНТЯБ</small>
-    <br/><br/>
-    <small class="number">25</small>
-    <br/><br/><br/><br/>
-    <small class="month july">ИЮЛЬ</small>
-    <br/><br/>
-    <small class="number">25</small>
-    <br/> <br/><br/><br/>
-    <small class="month july">ИЮЛЬ</small>
-    <br/><br/>
-    <small class="number">25</small>
-</div>
-<div class="text t1">
-    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
-</div>
-<div class="text t2">
-    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
-</div>
-<div class="text t3">
-    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который принадлежит только Вам.
-</div>
-<div class="text t4">
-    <b>После Вашей первой покупки</b>&nbsp;&nbsp; на нашем сайте Вы получаете «промо-код», который
-</div>
-<br/>
-<b id="all_news">Все новости </b><a href="#" title=""><img src="img/arrow.png" alt="arrow"></a>
-<div class="line">
-    <img src="img/arrows.png" alt="arrows"><b> ЭТОТ ТОВАР МОЖНО КУПИТЬ В КОМПЛЕКТЕ</b>
-    <hr>
-</div>
-<div class="suite_container">
-    <div class="suite1">
-        <a href="#" title="">Сушилка boot&glow</a><a href="#" title="">Сушилка boot&glow</a><a href="#" title="">Сушилка
-        boot</a>
-        <br/>
-        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="plus"><b> + </b></span>
-        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="plus"><b> + </b></span>
-        <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span class="prices_for_suite_container"> <strike>2800</strike><b>р.</b><strong id="number"> 2800</strong><b
-                class="grey">р.</b><br/><br/> <b class="grey">+23 балла</b></span><span
-            class="buy_button_with_ruble_sign"><a href="#" title="">₽&nbsp;Купить</a></span>
-    </div>
-</div>
-<div class="line">
-    <img src="img/arrows.png" alt="arrows"><b> С ЭТИМ ТОВАРОМ ПОКУПАЮТ</b><a href="#" title="">Смотреть весь список </a><br/>
-    <hr>
-</div>
-<div class="second_suite_container">
-    <div class="suite1">
-        <br/>
-            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
-                    href="#" title="">Сушилка boot&glow </a><strong class="buy_button"><a href="#"
-                                                                                          title=""></a>Купить</strong> <span
-                    class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span></span>
-            </span>
-            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-                    href="#" title="">Сушилка boot&glow </a><strong class="buy_button">Купить</strong><span
-                    class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span></span>
-            </span>             <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-            href="#" title="">Сушилка boot&glow </a><strong class="buy_button">Купить</strong><span
-            class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span></span>
-            </span>
-            <span class="field_for_image">            <img src="img/man_with_laptop.png" alt="man">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-                    href="#" title="">Сушилка boot&glow </a><strong class="buy_button">Купить</strong><span
-                    class="price_second"><b id="number">2800</b>&nbsp;<span class="ruble_sign">₽ </span> </span>
-            </span>
-    </div>
-</div>
-<br/><br/><br/><br/>
-<div class="line">
-    <img src="img/arrows.png" alt="arrows"><b> ОТЗЫВЫ</b><a href="#" title="">все отзывы </a>
-    <hr>
-</div>
-<div class="feedback">
-    <div class="sort_by">
-        Сортировать по: <b>новизне</b> <a href="#" title="">лидерам продаж</a>&nbsp;&nbsp;<a href="#"
-                                                                                             title="">рейтингу</a>&nbsp;&nbsp;<a
-            href="#" title="">цене</a>&nbsp;&nbsp;<a href="#" title="">наличию</a>
-    </div>
-    <div class="feedback_container">
-        <br/>
-        <b>Apriorie</b>
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <img src="img/star.png" alt="star">
-        <div id="feedback_date">
-            13 ноября
-        </div>
-        <br/>
-        Пользуюсь два месяца, зависал пока что всего один раз. супер книга, не жалею что купила <br/>
-        <b>Достоинства:</b><br/>
-        1)можно менять размер шрифта 2)функция "чтение ночью/днем" 3)wi-fi конечно же 4)можно слушать музыку и читать
-        5)игры, приложения 6)заметки (быстрые/текстовые) 7)регулятор громкости не внутри, а сбоку 8)можно выставлять
-        закладки
-        из интернета и папки на "рабочий стол" 9)можно менять и обрезать обои <br/> <br/>
-        <b>Недостатки:</b><br/>
-        1)лучше воспринимает стилус (или что-то вроде него), палец не так хорошо. 2)не открывает некоторые приложения,
-        скачанные через wi-fi с интернета, хотя пишут, что полностью поддерживает. <br/><br/>
-        <span>Отзыв полезен? <a href="#" title="" id="yes"><b>Да</b></a>&nbsp;4 /&nbsp;<a href="#" title="" id="no"><b>Нет</b></a>&nbsp;0 </span>
-    </div>
-</div>
-<br/>
-<div class="pages_navigation">
-    <span id="previous_page">← Предыдущая страница</span>
-    <a href="#" title="">Следующая</a> →<br/>
-    <span id="current_page">1</span>
-    <a href="#" title="">2</a> <a href="#" title="">3</a> <a href="#" title="">4</a> <a href="#" title="">5</a>&nbsp;...<a
-        href="#" title="">99</a>
-</div>
-<br/><br/>
-<footer>
-    <hr>
-    <div class="footer">
-        <img src="img/logo1.png" alt="logo1"> <span class="info_links">
-            <a href="#" title="">О магазине</a> | <a href="#" title="">Доставка и оплата</a> | <a href="#" title="">Обратная связь</a> | <a
-            href="#" title="">Прайс-лист</a>
-            </span><span class="grey">Разработка сайта — </span> <a href="#" title="">Название</a><br/>
-            <span class="info">
-            &nbsp;&nbsp;&nbsp;&nbsp;Все права защищены.<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;Любое копирование запрещено
-            </span>
-    </div>
-</footer>
 </body>
 </html>
