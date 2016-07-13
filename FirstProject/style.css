@@ -11,6 +11,27 @@ body {
     font: 14px/1.67 Arial, Helvetica, sans-serif;
 }
 
+.h_right {
+    float: left;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*                           header start                   */
+
+#shop_title {
+    color: #535353;
+    font-size: 20px;
+}
+
+header {
+    overflow: hidden;
+}
+
 .h_left {
     float: left;
     width: 240px;
@@ -23,20 +44,67 @@ body {
     margin-right: 7px;
 }
 
-.h_right {
+.bucket {
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
+    /*margin-top: -32px;*/
+}
+
+.bucket a {
+    text-decoration: underline;
+}
+
+.navigation_bar {
+
+}
+
+.navigation_bar li {
+    line-height: 36px;
+    height: 36px;
+    padding: 0 10px;
+    display: block;
+}
+
+.navigation_bar li a {
+
+}
+
+.navigation_bar li.current a {
+    line-height: 36px;
+    height: 36px;
+    border-radius: 5px;
+    background: #fb9d00 repeat-x 0 0;
+    padding: 0 10px;
+    color: #fff;
+    display: block;
+    margin-left: 40px;
+}
+
+.other {
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
+    /*padding: 13px 12px;*/
+    /*margin-top: -15px;*/
+}
+
+.personal_account {
+    margin-top: -7px;
+}
+
+nav {
+    margin-left: -50px;
+}
+
+nav li {
     float: left;
+    margin-right: 5px;
 }
 
-.wrapper {
-    width: 1000px;
-    margin: auto;
-    margin-top: 50px;
+nav li a {
+    color: #000;
 }
 
-header {
-    overflow: hidden;
-}
-
+/*                                   header end                          */
 .content {
     overflow: hidden;
 }
@@ -44,11 +112,6 @@ header {
 .navigator {
     color: #7c7c7c;
     text-decoration: underline;
-}
-
-#navigator_current {
-    color: #a4a4a4;
-    font: 12px Arial, Helvetica, sans-serif;
 }
 
 .left_sidebar {
@@ -93,28 +156,6 @@ header {
     margin-top: 5px;
 }
 
-.navigation_bar {
-
-}
-
-.navigation_bar li {
-
-}
-
-.navigation_bar li a {
-
-}
-
-.navigation_bar li.current a {
-    line-height: 36px;
-    height: 36px;
-    border-radius: 5px;
-    background: #fb9d00 repeat-x 0 0;
-    padding: 0 10px;
-    color: #fff;
-    display: block;
-}
-
 .share {
     margin-top: 18px;
     padding-left: 17px;
@@ -141,6 +182,10 @@ header {
     padding: 3px 18px;
 }
 
+.text {
+    float: right;
+}
+
 .number {
     background: #fdc203 repeat-x 0 0;
     padding: 7px 20px;
@@ -149,36 +194,16 @@ header {
     font-size: 24px;
 }
 
-.text {
-    width: 200px;
-    font-size: 12px;
-}
-
-.t1 {
-    margin-top: -17%;
-}
-
-.t2 {
-    margin-top: 0.5%;
-}
-
-.t3 {
-    margin-top: 0.5%;
-}
-
-.t4 {
-    margin-top: 0.4%;
+.announcement {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #333333;
 }
 
 .description {
     padding: 10px 15px;
     background: #f1f1f1 repeat-x 0 0;
     border-radius: 7px;
-}
-
-.description_second {
-    width: 395px;
-    height: 275px;
 }
 
 .sale_section {
@@ -190,7 +215,8 @@ header {
     text-decoration: underline;
 }
 
-.news {
+/*                    news          start          */
+.news-title {
     margin-top: 25px;
     margin-bottom: 25px;
     font: 22px Arial, Helvetica, sans-serif;
@@ -198,6 +224,46 @@ header {
     background: #f1f1f1 repeat-x 0 0;
     padding: 5px 15px;
 }
+
+.news-item {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.news-item .calendar {
+    width: 50px;
+    float: left;
+    text-align: center;
+}
+
+.news-item .calendar .month {
+    font-size: 10px;
+}
+
+.news-item .calendar .day {
+    background: #fdc303; /* Old browsers */
+    background: -moz-linear-gradient(top, #fdc303 0%, #fba003 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fdc303 0%, #fba003 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fdc303 0%, #fba003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdc303', endColorstr='#fba003', GradientType=0); /* IE6-9 */
+    color: #fff;
+    font-size: 24px;
+    border-radius: 0 0 5px 5px;
+}
+
+.news-item .news-content {
+    font-size: 12px;
+}
+
+.news-item .news-content .news-content-title {
+    color: #333333;
+}
+
+.news-item .news-content .news-content-body {
+    height: 40px;
+}
+
+/*            news  end         */
 
 .share a {
     float: right;
@@ -209,42 +275,40 @@ header {
     margin-bottom: -5px;
 }
 
-.personal_account {
-    margin-top: -7px;
+/*                        suite              start                      */
+.suite_container {
+    border: 0.5px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 0 20px;
 }
 
-.bucket {
-    border-radius: 5px;
-    background: #f1f1f1 repeat-x 0 0;
-    margin-top: -32px;
+.product_name a {
+    text-decoration: underline;
+    color: #333333;
+    font-size: 12px;
 }
 
-.other {
-    border-radius: 5px;
-    background: #f1f1f1 repeat-x 0 0;
-    padding: 13px 12px;
-    margin-top: -15px;
+/* .suite_image img{
+    width: 100px;
+ height: 100px;
+}
+ */
+.suite_item {
+    overflow: hidden;
 }
 
-nav {
-    margin-left: -40px;
-}
+/*                        suite               end                          */
 
-nav li {
+/*                          second          suite   start                   */
+
+.second {
+    width: 180px;
     float: left;
-    margin-right: 5px;
 }
 
-nav li.current a {
-    border-radius: 5px;
-    background: #fb9d00 repeat-x 0 0;
-    padding: 13px 12px;
-    color: #fff;
-}
-
-nav li a {
-    color: #000;
-}
+/*                          second          suite   end                   */
 
 .search {
     margin-bottom: 5px;
@@ -260,12 +324,20 @@ nav li a {
 .search button {
 }
 
+.image_from_video {
+    float: right;
+}
+
+.plus {
+    font-size: 50px;
+    color: #ff8400;
+}
+
 .main_content {
     float: left;
     width: 740px;
     margin-left: 20px;
     margin-top: 28px;
-    /*background-color: green;*/
 }
 
 .second {
@@ -282,15 +354,15 @@ nav li a {
     border-radius: 12px;
 }
 
+#navigator_current {
+    color: #a4a4a4;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
 .third span {
     color: #ff8400;
     font-size: 20px;
 }
 
 .third img {
-}
-
-#shop_title {
-    color: #535353;
-    font-size: 20px;
 }
