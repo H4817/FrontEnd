@@ -156,13 +156,6 @@ nav li a {
     margin-top: 5px;
 }
 
-.share {
-    margin-top: 18px;
-    padding-left: 17px;
-    margin-bottom: 18px;
-
-}
-
 .month {
     font-size: 10px;
     background: #e8ac15 repeat-x 0 0;
@@ -200,6 +193,10 @@ nav li a {
     color: #333333;
 }
 
+.announcement a {
+    float: right;
+}
+
 .description {
     padding: 10px 15px;
     background: #f1f1f1 repeat-x 0 0;
@@ -208,11 +205,6 @@ nav li a {
 
 .sale_section {
     margin-top: 100px;
-}
-
-.sale_section a {
-    color: #ff8400;
-    text-decoration: underline;
 }
 
 /*                    news          start          */
@@ -267,12 +259,16 @@ nav li a {
 
 .share a {
     float: right;
-    color: #ff8400;
-    text-decoration: underline;
 }
 
 .share span img {
     margin-bottom: -5px;
+}
+
+.share {
+    margin-top: 18px;
+    padding-left: 17px;
+    margin-bottom: 18px;
 }
 
 /*                        suite              start                      */
@@ -282,6 +278,12 @@ nav li a {
     border-style: solid;
     border-radius: 12px;
     padding: 0 20px;
+    overflow: hidden;
+}
+
+.suite-item {
+    width: 120px;
+    float: left;
 }
 
 .product_name a {
@@ -295,20 +297,61 @@ nav li a {
  height: 100px;
 }
  */
-.suite_item {
-    overflow: hidden;
+
+.old_price {
+
 }
 
-/*                        suite               end                          */
+.suite_item {
+    width: 100px;
+    float: left;
+}
+
+/*               suite               end                          */
+
+.orange_link {
+    font-size: 14px;
+    color: #ff8400;
+    text-decoration: underline;
+}
 
 /*                          second          suite   start                   */
 
 .second {
-    width: 180px;
+    width: 120px;
     float: left;
+    margin-bottom: 100px;
+    margin-left: 20px;
 }
 
 /*                          second          suite   end                   */
+
+.feedback_container {
+    padding: 5px 5px;
+    border: 0.5px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.feedback_container span {
+    background: #f1f1f1 repeat-x 0 0;
+    padding: 3px 15px;
+}
+
+.feedback_container a {
+    text-decoration: underline;
+}
+
+.pages_navigation a {
+    text-decoration: underline;
+    color: #333333;
+    margin-left: 5px;
+}
+
+#feedback_date {
+    float: right;
+}
 
 .search {
     margin-bottom: 5px;
@@ -329,6 +372,7 @@ nav li a {
 }
 
 .plus {
+    float: left;
     font-size: 50px;
     color: #ff8400;
 }
@@ -338,13 +382,6 @@ nav li a {
     width: 740px;
     margin-left: 20px;
     margin-top: 28px;
-}
-
-.second {
-    margin-left: 311px;
-}
-
-#logo {
 }
 
 .third {
