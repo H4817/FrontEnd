@@ -24,20 +24,21 @@
                     <a href="#" title="">Контакты</a>
                 </li>
                 <li class="other personal_account">
-                    <a href="#" title=""><img alt="person" src="img/person.png">Личный
-                        кабинет</a>
+                    <a href="#" title=""><img alt="person" src="img/person.png">Личный кабинет</a>
                 </li>
             </nav>
         </div>
         <div class="h_right">
             <div class="other bucket">
-                <img align="left" alt="" src="img/bucket.png">&nbsp;Товаров в корзине:
+                <div class="bucket_img">
+                    <img align="left" alt="" src="img/bucket.png">
+                </div>
+                <div class="products_amount">
+                    Товаров в корзине: <br>
+                    На сумму: <b>2300</b> ₽<br>
+                    <a href="#" id="make_order" title="" class="orange_link">оформить заказ</a>
+                </div>
                 <b>2 шт</b><br>
-                &nbsp;На сумму: <b>2300</b> ₽<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"
-                                                                               id="make_order" title=""
-                                                                               class="orange_link">оформить
-                заказ</a>
             </div>
         </div>
     </header>
@@ -48,40 +49,31 @@
                     <a>Категории товаров</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Сотовые телефоны</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Самое новое!</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Все для животных</a>
                 </li>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Забота о здоровье</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Отпугиватели</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Уцененные товары</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Забота о здоровье</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a>Отпугиватели</a>
                 </li>
                 <li>
-                    <img align="left" alt="" src="img/arrow.png">
                     <a style="border-bottom: 0px">Уцененные товары</a>
                 </li>
             </menu>
@@ -147,7 +139,7 @@
                         Во всех категориях
                     </option>
                 </select>
-                <button type="submit">Купить</button>
+                <button type="submit">Найти</button>
             </form>
             <div>
                 <a class="navigator" href="#" title="">Главная страница</a>→ <a class=
@@ -156,11 +148,20 @@
                         "navigator_current" title="">Антихрап</a>
             </div>
             <div class="third">
-                <span><img alt="arrows" src="img/arrows.png">&nbsp;АНТИХРАП СТОППЕР<br></span>
-                <img alt="man" id="man_with_laptop" src="img/man_with_laptop.png"><br>
-                <img alt="star" src="img/star.png"> <img alt="star" src="img/star.png">
-                <img alt="star" src="img/star.png"> <img alt="star" src="img/star.png">
-                <img alt="star" src="img/star.png"> <b>3,6</b> (20 голосов)
+                <div class="product_image">
+                    <span><img alt="arrows" src="img/arrows.png">&nbsp;АНТИХРАП СТОППЕР<br></span>
+                    <img alt="man" id="man_with_laptop" src="img/man_with_laptop.png"><br>
+                </div>
+                <div class="product_price_container">
+                    <strike class="old_price">Обычная цена: 2800 р.</strike><br/>
+                    <strike class="old_price">Серебрянная карта: 2600 р.</strike><br/>
+                    <strong>Золотая карта: </strong> <strong style="color: #ff8400; font-size:18px"> 2500</strong>р<br/><span
+                        style="color: #666666; font-size:12px">Бриллиантовая карта: 2000 р</span></div>
+                <div class="rating">
+                    <img alt="star" src="img/star.png"> <img alt="star" src="img/star.png">
+                    <img alt="star" src="img/star.png"> <img alt="star" src="img/star.png">
+                    <img alt="star" src="img/star.png"> <b>3,6</b> (20 голосов)
+                </div>
             </div>
             <div class="share">
                 Поделиться: <span> <img src="img/share.png" alt="share"> </span>
@@ -176,29 +177,32 @@
                 <img src="img/video-screen.png">
             </div>
             <div class="description_second">
-                Антихрап улавливает звуки храпа и посылает легкие электроимпульсы через 2 электрода, расположены на
-                задней панели
-                прибора. Данные импульсы активизируют нервные окончания на руке человека и, не прерывая сна, заставляют
-                его сменить
-                положение тела. В результате храп прекращается.<br/><br/>
-                Особенности модели:<br/>
-                - Работает от одной батареи типа CR2032<br/>
-                - Специальный гель улучшает контакт электродов<br/>
-                - Прибор безопасен и не имеет побочных эффектов.<br/>
-                - Прибор крепится на руке человека, аналогично наручным часам.<br/>
-                - Эластичный ремень на липучке позволяет регулировать прибор.
+                <p>
+                    Антихрап улавливает звуки храпа и посылает легкие электроимпульсы через 2 электрода, расположены на
+                    задней панели
+                    прибора. Данные импульсы активизируют нервные окончания на руке человека и, не прерывая сна,
+                    заставляют
+                    его сменить
+                    положение тела. В результате храп прекращается.
+                </p>
+                <p>
+                    Особенности модели:<br/>
+                    - Работает от одной батареи типа CR2032<br/>
+                    - Специальный гель улучшает контакт электродов<br/>
+                    - Прибор безопасен и не имеет побочных эффектов.<br/>
+                    - Прибор крепится на руке человека, аналогично наручным часам.<br/>
+                    - Эластичный ремень на липучке позволяет регулировать прибор.
+                </p>
             </div>
             <div class="sale_section">Этот товар продается в разделах: <a href="#" title="" class="orange_link">раздел
                 1</a>, <a href="#" class="orange_link" title="">раздел
                 2</a>, <a href="#" class="orange_link" title="">раздел 3</a>
             </div>
             <br/>
-            <div class="announcement">
-                <img src="img/arrows.png" alt="arrows"> ЭТОТ ТОВАР МОЖНО КУПИТЬ В КОМПЛЕКТЕ
-                <hr>
-            </div>
+            <h2 class="announcement">
+                ЭТОТ ТОВАР МОЖНО КУПИТЬ В КОМПЛЕКТЕ
+            </h2>
             <div class="suite_container">
-
                 <div class="suite-item">
                     <div class="product_name">
                         <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
@@ -207,11 +211,9 @@
                         <img src="img/man_with_laptop.png" alt="man" width="100px">
                     </div>
                 </div>
-
                 <div class="plus">
                     <b>+</b>
                 </div>
-
                 <div class="suite-item">
                     <div class="product_name">
                         <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
@@ -220,11 +222,9 @@
                         <img src="img/man_with_laptop.png" alt="man" width="100px">
                     </div>
                 </div>
-
                 <div class="plus">
                     <b>+</b>
                 </div>
-
                 <div class="suite-item">
                     <div class="product_name">
                         <a href="#" title=""><strong>Сушилка boot</strong></a>
@@ -233,85 +233,67 @@
                         <img src="img/man_with_laptop.png" alt="man" width="100px">
                     </div>
                 </div>
-
                 <div>
                     <span class="old_price"><strike>2800</strike>p</span>
                     <span class="new_price"><b>2800</b>p</span>
                 </div>
-
             </div>
-
             <div class="announcement">
-                <img src="img/arrows.png" alt="arrows"> С ЭТИМ ТОВАРОМ ПОКУПАЮТ
+                С ЭТИМ ТОВАРОМ ПОКУПАЮТ
                 <a href="#" title="" class="orange_link">Смотреть весь список</a>
-                <hr>
             </div>
-
-            <div class="suite_container second">
-
-                <div class="suite-item">
-                    <div class="suite-image">
-                        <img src="img/man_with_laptop.png" alt="man" width="100px">
-                    </div>
-                    <div class="product_name">
-                        <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+            <div class="second_suite">
+                <div class="suite_container second">
+                    <div class="suite-item">
+                        <div class="suite-image">
+                            <img src="img/man_with_laptop.png" alt="man" width="100px">
+                        </div>
+                        <div class="product_name">
+                            <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="suite_container second">
-
-                <div class="suite-item">
-                    <div class="suite-image">
-                        <img src="img/man_with_laptop.png" alt="man" width="100px">
-                    </div>
-                    <div class="product_name">
-                        <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                <div class="suite_container second">
+                    <div class="suite-item">
+                        <div class="suite-image">
+                            <img src="img/man_with_laptop.png" alt="man" width="100px">
+                        </div>
+                        <div class="product_name">
+                            <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="suite_container second">
-
-                <div class="suite-item">
-                    <div class="suite-image">
-                        <img src="img/man_with_laptop.png" alt="man" width="100px">
-                    </div>
-                    <div class="product_name">
-                        <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                <div class="suite_container second">
+                    <div class="suite-item">
+                        <div class="suite-image">
+                            <img src="img/man_with_laptop.png" alt="man" width="100px">
+                        </div>
+                        <div class="product_name">
+                            <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="suite_container second">
-
-                <div class="suite-item">
-                    <div class="suite-image">
-                        <img src="img/man_with_laptop.png" alt="man" width="100px">
-                    </div>
-                    <div class="product_name">
-                        <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                <div class="suite_container second">
+                    <div class="suite-item">
+                        <div class="suite-image">
+                            <img src="img/man_with_laptop.png" alt="man" width="100px">
+                        </div>
+                        <div class="product_name">
+                            <a href="#" title=""><strong>Сушилка boot&amp;glow</strong></a>
+                        </div>
                     </div>
                 </div>
-
             </div>
-
-            <div class="announcement">
-                <img src="img/arrows.png" alt="arrows"> ОТЗЫВЫ
+            <h2 class="announcement">
+                ОТЗЫВЫ
                 <a href="#" title="" class="orange_link">все отзывы</a>
-                <hr>
-            </div>
-
+            </h2>
             <div class="sort_by">
                 Сортировать по: <b>новизне</b> <a href="#" title="" class="orange_link">лидерам продаж</a>&nbsp;&nbsp;<a
                     href="#"
                     title="" class="orange_link">рейтингу</a>&nbsp;&nbsp;<a
                     href="#" title="" class="orange_link">цене</a>&nbsp;&nbsp;<a href="#" title="" class="orange_link">наличию</a>
             </div>
-
             <div class="feedback_container">
                 <br/>
                 <b>Apriorie</b>
@@ -323,25 +305,28 @@
                 <div id="feedback_date">
                     13 ноября
                 </div>
-                <br/>
-                <br/>
-                Пользуюсь два месяца, зависал пока что всего один раз. супер книга, не жалею что купила <br/>
-                <b>Достоинства:</b><br/>
-                1)можно менять размер шрифта 2)функция "чтение ночью/днем" 3)wi-fi конечно же 4)можно слушать музыку и
-                читать
-                5)игры, приложения 6)заметки (быстрые/текстовые) 7)регулятор громкости не внутри, а сбоку 8)можно
-                выставлять
-                закладки
-                из интернета и папки на "рабочий стол" 9)можно менять и обрезать обои <br/> <br/>
+                <p>
+                    Пользуюсь два месяца, зависал пока что всего один раз. супер книга, не жалею что купила <br/>
+                    <b>Достоинства:</b><br/>
+                    1)можно менять размер шрифта 2)функция "чтение ночью/днем" 3)wi-fi конечно же 4)можно слушать музыку
+                    и
+                    читать
+                    5)игры, приложения 6)заметки (быстрые/текстовые) 7)регулятор громкости не внутри, а сбоку 8)можно
+                    выставлять
+                    закладки
+                    из интернета и папки на "рабочий стол" 9)можно менять и обрезать обои
+                </p>
                 <b>Недостатки:</b><br/>
                 1)лучше воспринимает стилус (или что-то вроде него), палец не так хорошо. 2)не открывает некоторые
                 приложения,
-                скачанные через wi-fi с интернета, хотя пишут, что полностью поддерживает. <br/><br/>
-                <span>Отзыв полезен? <a href="#" title="" style="color: green"><b>Да</b></a>&nbsp;4 /&nbsp;<a href="#"
-                                                                                                              title=""
-                                                                                                              style="color: red"><b>Нет</b></a>&nbsp;0 </span>
+                скачанные через wi-fi с интернета, хотя пишут, что полностью поддерживает.
+                </p>
+                <p>
+                     <span>Отзыв полезен? <a href="#" title="" style="color: green"><b>Да</b></a>&nbsp;4 /&nbsp;<a
+                             href="#"
+                             title=""
+                             style="color: red"><b>Нет</b></a>&nbsp;0 </span>
             </div>
-
             <br/>
             <div class="pages_navigation">
                 <span style="color: #999999 ">← Предыдущая страница</span>
@@ -351,9 +336,27 @@
                                                                                                     title="">5</a>&nbsp;...<a
                     href="#" title="">99</a>
             </div>
-
         </div>
     </div>
+    <br/><br/>
+    <footer>
+        <hr>
+        <div class="footer">
+            <div class="logo">
+                <img src="img/logo1.png" alt="logo1">
+                Все права защищены.
+                Любое копирование запрещено
+            </div>
+            <div class="about">
+                <a href="#" title="">О магазине</a> | <a href="#" title="">Доставка и оплата</a> | <a href="#" title="">Обратная
+                связь</a> | <a
+                    href="#" title="">Прайс-лист</a>
+            </div>
+            <div class="site_development">
+                Разработка сайта — <a href="#" title="">Название</a><br/>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
