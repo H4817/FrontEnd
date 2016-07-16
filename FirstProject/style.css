@@ -277,7 +277,7 @@ nav li a {
     border-color: #cccccc;
     border-style: solid;
     border-radius: 12px;
-    padding: 0 20px;
+    padding: 20px 20px;
     overflow: hidden;
 }
 
@@ -286,7 +286,7 @@ nav li a {
     float: left;
 }
 
-.product_name a {
+.product_description a {
     text-decoration: underline;
     color: #333333;
     font-size: 12px;
@@ -348,6 +348,21 @@ nav li a {
     width: 505px;
 }
 
+.buy_button_with_ruble_sign a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #fcb600 repeat-x 0 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.links a {
+    font-size: 14px;
+    color: #ff8400;
+    text-decoration: underline;
+}
+
 .search button {
     color: #fff;
     border: 0px;
@@ -360,6 +375,8 @@ nav li a {
 }
 
 .plus {
+    margin-top: 50px;
+    margin-right: 20px;
     float: left;
     font-size: 50px;
     color: #ff8400;
@@ -418,6 +435,13 @@ nav li a {
     font-size: 11px;
 }
 
+.buy_button {
+    color: #ffffff;
+    background: #fcb600 repeat-x 0 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
 .site_development {
     display: block;
     width: 200px;
@@ -443,3 +467,4 @@ nav li a {
 .product_price_container {
     float: left;
     width: 270px;
+}
