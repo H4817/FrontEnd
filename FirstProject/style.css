@@ -1,3 +1,4 @@
+
 a {
     text-decoration: none;
 }
@@ -43,13 +44,28 @@ header {
     margin-right: 7px;
 }
 
+.buy_suite {
+    margin-top: 26px;
+    margin-left: 30px;
+    float: left;
+    width: 220px;
+}
+
+.products_amount {
+    width: 220px;
+    height: 45px;
+}
+
 .bucket {
+    border: 0.5px;
     border-radius: 5px;
     background: #f1f1f1 repeat-x 0 0;
-    /*margin-top: -32px;*/
+    border-style: solid;
+    border-color: #cccccc;
 }
 
 .bucket a {
+    margin-left: 45px;
     text-decoration: underline;
 }
 
@@ -67,6 +83,7 @@ header {
 }
 
 .navigation_bar li.current a {
+    box-shadow: 0 2px #cccccc;
     line-height: 36px;
     height: 36px;
     border-radius: 5px;
@@ -77,11 +94,15 @@ header {
     margin-left: 40px;
 }
 
+.grey_text {
+    color: #666666;
+    font-size: 12px
+}
+
 .other {
     border-radius: 5px;
     background: #f1f1f1 repeat-x 0 0;
-    /*padding: 13px 12px;*/
-    /*margin-top: -15px;*/
+    box-shadow: 0 1px #ccc;
 }
 
 nav {
@@ -120,6 +141,8 @@ nav li a {
 }
 
 #left_menu_top a {
+    background: no-repeat;
+    /*margin-left: -15px;*/
     color: #fff;
     border-bottom: 1px solid white;
     font-size: 18px;
@@ -132,7 +155,7 @@ nav li a {
 }
 
 .left_menu li {
-    padding: 10px 20px;
+    padding: 8px 20px;
 }
 
 .left_menu li a {
@@ -183,8 +206,8 @@ nav li a {
 .announcement {
     border-bottom: 1px solid #ababab;
     padding-left: 27px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 11px;
     font-size: 20px;
     color: #333333;
     font-weight: normal;
@@ -203,8 +226,12 @@ nav li a {
     border-radius: 7px;
 }
 
+.description_second p {
+    font-size: 14px;
+}
+
 .sale_section {
-    margin-top: 100px;
+    margin-top: 45px;
 }
 
 /*                    news          start          */
@@ -277,7 +304,7 @@ nav li a {
     border-color: #cccccc;
     border-style: solid;
     border-radius: 12px;
-    padding: 20px 20px;
+    padding: 11px 11px;
     overflow: hidden;
 }
 
@@ -306,10 +333,9 @@ nav li a {
 
 /*                          second          suite   start                   */
 .second {
-    width: 120px;
+    width: 160px;
     float: left;
-    margin-bottom: 100px;
-    margin-left: 20px;
+    margin-bottom: 35px;
 }
 
 /*                          second          suite   end                   */
@@ -344,17 +370,46 @@ nav li a {
     margin-bottom: 5px;
 }
 
+.sort_by {
+    margin-bottom: 11px;
+}
+
+.search select {
+    border-radius: 5px;
+    background: #f1f1f1 repeat-x 0 0;
+    padding: 4px 10px;
+}
+
 .search input {
     width: 505px;
+    border-radius: 5px;
+    border: 0.5px;
+    background: #f1f1f1 repeat-x 0 0;
+    padding: 5px 0;
+    border-color: #cccccc;
+    border-style: solid;
 }
 
 .buy_button_with_ruble_sign a {
+    background: #fdc303; /* Old browsers */
+    background: -moz-linear-gradient(top, #fdc303 0%, #fba003 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fdc303 0%, #fba003 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fdc303 0%, #fba003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdc303', endColorstr='#fba003', GradientType=0); /* IE6-9 */
     text-decoration: none;
     color: #ffffff;
-    background: #fcb600 repeat-x 0 0;
-    padding: 3px 5px;
+    padding: 3px 18px;
     border-radius: 5px;
     font-size: 20px;
+    width: 90px;
+    float: left;
+}
+
+.links {
+    width: 150px;
+    float: left;
+    margin-top: -95px;
+    margin-left: 45px;
 }
 
 .links a {
@@ -368,6 +423,7 @@ nav li a {
     border: 0px;
     background-color: #fdb416;
     border-radius: 5px;
+    padding: 6px 10px;
 }
 
 .image_from_video {
@@ -398,13 +454,15 @@ nav li a {
 }
 
 .product_price_container {
-    width: 266px;
     padding: 5px 5px;
     border: 0.5px;
     background: #ffffff repeat-x 0 0;
     border-color: #cccccc;
     border-style: solid;
     border-radius: 12px;
+    margin-top: 33px;
+    float: left;
+    width: 250px;
 }
 
 #navigator_current {
@@ -435,11 +493,21 @@ nav li a {
     font-size: 11px;
 }
 
+.buy_product {
+    float: left;
+    margin-top: 10px;
+}
+
 .buy_button {
     color: #ffffff;
-    background: #fcb600 repeat-x 0 0;
+    /*background: #f48400 repeat-x 0 0;*/
     padding: 3px 5px;
     border-radius: 5px;
+    background: #fdc303; /* Old browsers */
+    background: -moz-linear-gradient(top, #fdc303 0%, #fba003 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fdc303 0%, #fba003 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fdc303 0%, #fba003 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdc303', endColorstr='#fba003', GradientType=0); /* IE6-9 */
 }
 
 .site_development {
@@ -462,9 +530,4 @@ nav li a {
 .product_image {
     float: left;
     width: 250px;
-}
-
-.product_price_container {
-    float: left;
-    width: 270px;
 }
