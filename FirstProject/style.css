@@ -51,7 +51,7 @@ header {
 }
 
 .products_amount {
-    padding: 2px 0px;
+    padding: 2px 0;
     width: 200px;
     height: 45px;
 }
@@ -59,7 +59,7 @@ header {
 .bucket {
     width: 220px;
     font-size: 12px;
-    border: 0.5px;
+    border: 1px;
     border-radius: 5px;
     background: #f1f1f1 repeat-x 0 0;
     border-style: solid;
@@ -71,17 +71,11 @@ header {
     text-decoration: underline;
 }
 
-.navigation_bar {
-}
-
 .navigation_bar li {
     line-height: 36px;
     height: 36px;
     padding: 0 10px;
     display: block;
-}
-
-.navigation_bar li a {
 }
 
 .navigation_bar li.current a {
@@ -133,7 +127,6 @@ nav li a {
 .left_sidebar {
     float: left;
     width: 240px;
-    /*background-color: red;*/
     margin-top: 28px;
 }
 
@@ -308,7 +301,7 @@ nav li a {
 
 /*                        suite              start                      */
 .suite_container {
-    border: 0.5px;
+    border: 1px;
     border-color: #cccccc;
     border-style: solid;
     border-radius: 12px;
@@ -348,11 +341,14 @@ nav li a {
 
 /*                          second          suite   end                   */
 .feedback_container {
+    font-size: 12px;
     padding: 5px 25px;
-    border: 0.5px;
+    border: 1px;
     border-color: #cccccc;
     border-style: solid;
     border-radius: 12px;
+    padding-top: 0;
+    padding-bottom: 14px;
 }
 
 .feedback_container span {
@@ -379,7 +375,13 @@ nav li a {
 }
 
 .sort_by {
+    font-size: 12px;
     margin-bottom: 11px;
+}
+
+.sort_by a {
+    font-size: 12px;
+    margin-left: 5px;
 }
 
 .search select {
@@ -391,12 +393,11 @@ nav li a {
 .search input {
     width: 505px;
     border-radius: 5px;
-    border: 0.5px;
+    border: 1px;
     background: #f1f1f1 repeat-x 0 0;
     padding: 5px 0;
     border-color: #cccccc;
     border-style: solid;
-    /*background: #f1f1f1 url(img/magnifying-glass.png) left no-repeat;*/
 }
 
 .buy_button_with_ruble_sign a {
@@ -429,7 +430,7 @@ nav li a {
 
 .search button {
     color: #fff;
-    border: 0px;
+    border: 0;
     background-color: #fdb416;
     border-radius: 5px;
     padding: 6px 10px;
@@ -465,7 +466,7 @@ nav li a {
 
 .product_price_container {
     padding: 5px 5px;
-    border: 0.5px;
+    border: 1px;
     background: #ffffff repeat-x 0 0;
     border-color: #cccccc;
     border-style: solid;
@@ -480,21 +481,29 @@ nav li a {
     text-decoration: none;
 }
 
+.all_rights_reserved {
+    float: left;
+    width: 160px;
+    margin-left: 11px;
+}
+
 .third span {
     font-size: 20px;
 }
 
 .about {
-    margin-left: 100px;
+    margin-left: 140px;
     float: left;
     width: 500px;
 }
 
 .about a {
+    font-size: 12px;
     color: #393939;
 }
 
 .logo {
+    margin-left: -5px;
     float: left;
     display: block;
     width: 160px;
@@ -509,7 +518,6 @@ nav li a {
 
 .buy_button {
     color: #ffffff;
-    /*background: #f48400 repeat-x 0 0;*/
     text-decoration: none;
     padding: 1px 13px;
     border-radius: 5px;
@@ -521,8 +529,9 @@ nav li a {
 }
 
 .site_development {
+    font-size: 12px;
     display: block;
-    width: 200px;
+    width: 175px;
     float: right;
     color: #ababab;
 }
